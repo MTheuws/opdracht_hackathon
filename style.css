@@ -1,0 +1,103 @@
+header { 
+    background-color:grey;
+    color:white;
+    font: normal 16px Zen Kaku Gothic Antique, sans-serif;
+    line-height:25px;
+    border: 10px solid whitesmoke;
+    padding:50px 10px;
+    margin:10px 10px;
+}
+         
+body { 
+    background-color:#0eb6a8;
+    color:black;
+    font: normal 14px Zen Kaku Gothic Antique, sans-serif;
+    line-height:25px;
+}
+
+main { 
+    background-color:#8af1e9;
+    color:black;
+    font: normal 14px Zen Kaku Gothic Antique, sans-serif;
+    line-height:25px;
+    border: 10px solid whitesmoke;
+    padding:10px 20px;
+    margin: 10px 10px;
+}
+
+footer { 
+    background-color:grey;
+    color:white;
+    font: normal 16px Zen Kaku Gothic Antique, sans-serif;
+    line-height:25px;
+    border: 10px solid whitesmoke;
+    padding: 10px 20px;
+    margin: 10px 10px;
+}
+
+img {
+    border: 10px solid whitesmoke;
+    padding: 7%;
+    margin: center
+}
+
+h1 {
+    margin: auto10px;
+    width: 25em;
+    padding: 0;
+}
+.categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.categories li {
+    float: left;
+}
+.categories li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.categories li a:hover {
+    background-color:#8af1e9;
+}
+.active {
+    background-color: #0eb6a8;
+} 
+.form {
+    padding:20px;
+    padding-bottom:15px;
+    width:95%;
+    color:black;
+}
+.form input{
+    background-color:white;
+    width:75%;
+    height:30px;
+}
+.form textarea{
+    background-color:white;
+    width:75%;
+    height:200px;
+}
+.form button{
+    background-color:rgb(174, 137, 235);
+    width:75%;
+    height:30px;
+}
+@media (min-width: 1024px){ 
+    body { 
+        background-color:grey;
+        color:black;
+        font: normal 14px Zen Kaku Gothic Antique, sans-serif;
+        line-height:25px;
+    }
+    main {
+        color:rgb(71, 68, 68);
+        font: normal 16px Zen Kaku Gothic Antique, sans-serif;
+        line-height:1.4em;
+    }
+}
